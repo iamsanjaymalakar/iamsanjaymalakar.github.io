@@ -86,7 +86,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -426,67 +426,72 @@
         </div>
       </section>
       <hr class="m-0" />
-      <!-- Awards-->
-      <section class="resume-section" id="awards">
+      <!-- Achievements-->
+      <section class="resume-section" id="achievements">
         <div class="resume-section-content">
-          <h2 class="mb-5">Awards & Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              2
-              <sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              3
-              <sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
+          <h2 class="mb-5">Achievements</h2>
+          <div class="mb-3">
+            <h3>Scholarships</h3>
+            <ul class="mb-0">
+              <li>
+                <b>University Merit Scholarship</b> - Achieved stipends from BUET in four out of seven terms for excellent result
+              </li>
+              <li>
+                <b>Talentpool Scholarship</b> - Achieved from Bangladesh  Government in <i>Higher Secondary School Certificate Examination</i> (2016-2020),
+                <i>Secondary School Certificate Examination</i> (2014-2015), and <i>Junior School Certificate Examination</i> (2011-2012) for outsanding
+                performance
+              </li>
+            </ul>
+          </div>
+          <div class="mb-3">
+            <h3>Awards</h3>
+            <ul class="mb-0">
+              <li>
+                <b>Dean's List Award</b> - Got award from BUET in Junior year for extraordinary result
+              </li>
+              <li>
+                <b>Shapla Cub Award</b> - Received from the honourable Prime Minister of Bangladesh for extraordinary performance as a Cub Scout
+              </li>
+            </ul>
+          </div>
+          <div class="mb-3">
+            <h3>Certification</h3>
+            <ul class="mb-0">
+              <li>
+                <b>LinkedIn Assessment</b>: C, C++, Java, Python, JavaScript, React.js, and Machine Learning
+              </li>
+              <li>
+                <b>Coursera</b>: Deep Learning Specialization, Machine Learning, Python for Everybody Specialization, Version Control with Git
+              </li>
+              <li>
+                <b>Udemy</b>: React - The Complete Guide (incl Hooks, React Router, Redux)
+              </li>
+              <li>
+                <b>HackerRank</b>:  Problem Solving (Advanced) Certificate
+              </li>
+            </ul>
+          </div>
+          <div class="mb-3">
+            <h3>Problem Solving</h3>
+            <ul class="mb-0">
+              <li>
+                <b>LeetCode</b>: Ranked <i id="leetcode-rank"></i> with <i id="leetcode-ac"></i>% acceptance rate 
+                <a href="https://leetcode.com/SanjayMalakar/" target="_blank>"><i class="fa fa-external-link"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="mb-0">
+            <h3>Co-organizer</h3>
+            <ul class="mb-0">
+              <li>
+                Actively worked as an organizer of BUET CSE FEST 2019, 2020
+              </li>
+              <li>
+                Freshmen Student Reception Program, CSE, BUET (2017)
+              </li>
+            </ul>
+          </div>
+           
         </div>
       </section>
       <hr class="m-0" />
@@ -570,6 +575,15 @@
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
       };
+    </script>
+    <script>
+      let url = 'https://leetcode-stats-api.herokuapp.com/sanjaymalakar';
+      fetch(url)
+      .then(res => res.json())
+      .then(out => {
+          document.getElementById('leetcode-rank').innerHTML = out.ranking;
+          document.getElementById('leetcode-ac').innerHTML = out.acceptanceRate;})
+      .catch(err => {throw err});
     </script>
   </body>
 </html>
