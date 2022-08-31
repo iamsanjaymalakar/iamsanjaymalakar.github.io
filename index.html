@@ -45,13 +45,16 @@
           <a class="nav-link js-scroll-trigger" href="#research">Research</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/files/CV_Sanjay_Malakar.pdf" target="_blank">CV</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -62,7 +65,8 @@
   <!-- Page Content-->
   <div class="container-fluid p-0">
     <!-- About-->
-    <section class="resume-section" id="about">
+    <section class="resume-section" style="max-width: fit-content;" id="about">
+      <!-- <div class="row"> -->
       <div class="resume-section-content">
         <h1 class="mb-0">
           Sanjay
@@ -70,34 +74,50 @@
         </h1>
         <div class="subheading mb-5 typewrite" data-period="2000"
           data-type='["Software Engineer.", "Researcher.", "Tech Enthusiast."]'></div>
-        <p class="lead mb-5 justify">
-          I am a senior software engineer at
-          <a href="https://www.openrefactory.com/">OpenRefactory, Inc.</a>, a
-          Silicon Valley-based deep-tech software company that focuses on
-          automatically fixing security, reliability, and compliance bugs.
-          <br />
-          <br />
-          My research focuses on Software Engineering, Computer/Software Security, and
-          Programming Languages.
-          <br />
-          <br />
-          I received my Bachelor of Science degree in Computer Science and
-          Engineering from
-          <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I completed my
-          undergraduate thesis under the supervision of
-          professor
-          <a href="https://rifatshahriyar.github.io/">Dr. Rifat Shahriyar</a>
-          on addressing atomicity bugs in software. Besides that, I worked
-          with
-          <a href="https://giasuddin.ca/">Dr. Gias Uddin, Assistant Professor, University of Calgary</a>, and
-          <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ&hl=en">Dr. Anindya Iqbal</a>
-          on an empirical study of low-code software development challenges.
-          <br />
-          <br />
-          Apart from my academic activities, I like to travel to new places
-          with my friends and family. In my free time, I enjoy solving problems on data structure and algorithms,
-          watching anime, and playing video games.
-        </p>
+        <div class="row">
+          <div class="col-lg-9 col-12">
+            <p class="lead mb-5 justify">
+              I am a senior software engineer at
+              <a href="https://www.openrefactory.com/">OpenRefactory, Inc.</a>, a
+              Silicon Valley-based deep-tech software company that focuses on
+              automatically fixing security, reliability, and compliance bugs.
+              <br />
+              <br />
+              My research focuses on Software Engineering, Computer/Software Security, and
+              Programming Languages.
+              <br />
+              <br />
+              I received my Bachelor of Science degree in Computer Science and
+              Engineering from
+              <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I completed my
+              undergraduate thesis under the supervision of
+              professor
+              <a href="https://rifatshahriyar.github.io/">Dr. Rifat Shahriyar</a>
+              on addressing atomicity bugs in software. Besides that, I worked
+              with
+              <a href="https://giasuddin.ca/">Dr. Gias Uddin, Assistant Professor, University of Calgary</a>, and
+              <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ&hl=en">Dr. Anindya Iqbal</a>
+              on an empirical study of low-code software development challenges.
+              <br />
+              <br />
+              Apart from my academic activities, I like to travel to new places
+              with my friends and family. In my free time, I enjoy solving problems on data structure and algorithms,
+              watching anime, and playing video games.
+            </p>
+          </div>
+          <div class="col-lg-3 col-12 mt-lg-0 mt-3">
+            <div class="text-primary subheading">LOOKING For PHD OPPORTUNITIES!</div>
+            I am currently looking for PhD opportunities in USA. If you'd like to know
+            more about my work, please get in touch! You can find my CV <a href="/files/CV_Sanjay_Malakar.pdf" target="_blank">here</a>.
+            <div class="mb-3"></div>
+            <div class="text-primary subheading">Recent News</div>
+            <ul class="fa-ul" style="margin-left: 2rem;">
+              <li><i class="fa-li fa fa-pen-nib"></i>Submitted revised manuscript of the paper <a href="#lcsd_emse">Developer Discussion Topics on the Adoption and Barriers of Low
+                Code Software Development Platforms</a> to the EMSE journal</li>
+              <li><i class="fa-li fa fa-award"></i>Attended TOEFL iBT exam and scored 103 out of 120 (R-25, L-29, S-23, W-26)</li>
+            </ul>
+          </div>
+        </div>
         <div class="social-icons">
           <a class="social-icon" href="mailto:iamsanjaymalakar@gmail.com">
             <i class="fas fa-envelope"></i>
@@ -207,7 +227,7 @@
         <h2 class="mb-5">Research</h2>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">
+            <h3 class="mb-0" id="lcsd_emse">
               Developer Discussion Topics on the Adoption and Barriers of Low
               Code Software Development Platforms
             </h3>
@@ -314,32 +334,77 @@
       </div>
     </section>
     <hr class="m-0" />
-    <!-- Skills-->
-    <section class="resume-section" id="skills">
+    <!-- Achievements-->
+    <section class="resume-section" id="achievements">
       <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-        <ul>
-          <li><b>Languages:</b> Java, C, C++, Python, JavaScript, Matlab, Shell, Dart</li>
-          <div class="mb-3"></div>
-          <li><b>Database:</b> Oracle, MySQL, SQLite, MongoDB, Firebase</li>
-          <div class="mb-3"></div>
-          <li><b>Frameworks:</b> Django, React, Flutter, Express.js, JavaFX, Scrapy</li>
-          <div class="mb-3"></div>
-          <li><b>Libraries:</b> NumPy, Pandas, TensorFlow, Scikit Learn, Matplotlib</li>
-          <div class="mb-3"></div>
-          <li><b>Web Technology:</b> HTML, CSS, Rest API, Bootstrap</li>
-          <div class="mb-3"></div>
-          <li><b>DevOps:</b> Docker, Kubernetes, Jenkins, Ansible</li>
-          <div class="mb-3"></div>
-          <li><b>Cloud:</b> Amazon EC2, S3 Bucket, Azure, Linode</li>
-          <div class="mb-3"></div>
-          <li><b>Technical Writing:</b> LaTeX, Beamer, Overleaf</li>
-          <div class="mb-3"></div>
-          <li><b>Build Tools:</b> CMake, Gradle, Apache Maven</li>
-          <div class="mb-3"></div>
-          <li><b>Others:</b> Git, NS2, Eclipse JDT, IntelliJ Platform SDK</li>
-        </ul>
-        
+        <h2 class="mb-5">Achievements</h2>
+        <div class="mb-3">
+          <h3>Scholarships</h3>
+          <ul class="mb-0">
+            <li>
+              <b>University Merit Scholarship</b> - Achieved stipends from BUET in four out of seven terms for excellent
+              result
+            </li>
+            <li>
+              <b>Talentpool Scholarship</b> - Achieved from Bangladesh Government in <i>Higher Secondary School
+                Certificate Examination</i> (2016-2020),
+              <i>Secondary School Certificate Examination</i> (2014-2015), and <i>Junior School Certificate
+                Examination</i> (2011-2012) for outstanding
+              performance
+            </li>
+          </ul>
+        </div>
+        <div class="mb-3">
+          <h3>Awards</h3>
+          <ul class="mb-0">
+            <li>
+              <b>Dean's List Award</b> - Got award from BUET in Junior year for an extraordinary result
+            </li>
+            <li>
+              <b>Shapla Cub Award</b> - Received from the honorable Prime Minister of Bangladesh for extraordinary
+              performance as a Cub Scout
+            </li>
+          </ul>
+        </div>
+        <div class="mb-3">
+          <h3>Certification</h3>
+          <ul class="mb-0">
+            <li>
+              <b>LinkedIn Assessment</b>: C, C++, Java, Python, JavaScript, React.js, and Machine Learning
+            </li>
+            <li>
+              <b>Coursera</b>: Deep Learning Specialization, Machine Learning, Python for Everybody Specialization,
+              Version Control with Git
+            </li>
+            <li>
+              <b>Udemy</b>: React - The Complete Guide (incl Hooks, React Router, Redux)
+            </li>
+            <li>
+              <b>HackerRank</b>: Problem Solving (Advanced) Certificate
+            </li>
+          </ul>
+        </div>
+        <div class="mb-3">
+          <h3>Problem Solving</h3>
+          <ul class="mb-0">
+            <li>
+              <b>LeetCode</b>: Ranked <i id="leetcode-rank"></i> with <i id="leetcode-ac"></i>% acceptance rate
+              <a href="https://leetcode.com/SanjayMalakar/" target="_blank>"><i class="fa fa-external-link"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-0">
+          <h3>Co-organizer</h3>
+          <ul class="mb-0">
+            <li>
+              Actively worked as an organizer of BUET CSE FEST 2019, 2020
+            </li>
+            <li>
+              Freshmen Student Reception Program, CSE, BUET (2017)
+            </li>
+          </ul>
+        </div>
+
       </div>
     </section>
     <hr class="m-0" />
@@ -429,77 +494,31 @@
       </div>
     </section>
     <hr class="m-0" />
-    <!-- Achievements-->
-    <section class="resume-section" id="achievements">
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
       <div class="resume-section-content">
-        <h2 class="mb-5">Achievements</h2>
-        <div class="mb-3">
-          <h3>Scholarships</h3>
-          <ul class="mb-0">
-            <li>
-              <b>University Merit Scholarship</b> - Achieved stipends from BUET in four out of seven terms for excellent
-              result
-            </li>
-            <li>
-              <b>Talentpool Scholarship</b> - Achieved from Bangladesh Government in <i>Higher Secondary School
-                Certificate Examination</i> (2016-2020),
-              <i>Secondary School Certificate Examination</i> (2014-2015), and <i>Junior School Certificate
-                Examination</i> (2011-2012) for outstanding
-              performance
-            </li>
-          </ul>
-        </div>
-        <div class="mb-3">
-          <h3>Awards</h3>
-          <ul class="mb-0">
-            <li>
-              <b>Dean's List Award</b> - Got award from BUET in Junior year for an extraordinary result
-            </li>
-            <li>
-              <b>Shapla Cub Award</b> - Received from the honorable Prime Minister of Bangladesh for extraordinary
-              performance as a Cub Scout
-            </li>
-          </ul>
-        </div>
-        <div class="mb-3">
-          <h3>Certification</h3>
-          <ul class="mb-0">
-            <li>
-              <b>LinkedIn Assessment</b>: C, C++, Java, Python, JavaScript, React.js, and Machine Learning
-            </li>
-            <li>
-              <b>Coursera</b>: Deep Learning Specialization, Machine Learning, Python for Everybody Specialization,
-              Version Control with Git
-            </li>
-            <li>
-              <b>Udemy</b>: React - The Complete Guide (incl Hooks, React Router, Redux)
-            </li>
-            <li>
-              <b>HackerRank</b>: Problem Solving (Advanced) Certificate
-            </li>
-          </ul>
-        </div>
-        <div class="mb-3">
-          <h3>Problem Solving</h3>
-          <ul class="mb-0">
-            <li>
-              <b>LeetCode</b>: Ranked <i id="leetcode-rank"></i> with <i id="leetcode-ac"></i>% acceptance rate
-              <a href="https://leetcode.com/SanjayMalakar/" target="_blank>"><i class="fa fa-external-link"></i></a>
-            </li>
-          </ul>
-        </div>
-        <div class="mb-0">
-          <h3>Co-organizer</h3>
-          <ul class="mb-0">
-            <li>
-              Actively worked as an organizer of BUET CSE FEST 2019, 2020
-            </li>
-            <li>
-              Freshmen Student Reception Program, CSE, BUET (2017)
-            </li>
-          </ul>
-        </div>
-
+        <h2 class="mb-5">Skills</h2>
+        <ul>
+          <li><b>Languages:</b> Java, C, C++, Python, JavaScript, Matlab, Shell, Dart</li>
+          <div class="mb-3"></div>
+          <li><b>Database:</b> Oracle, MySQL, SQLite, MongoDB, Firebase</li>
+          <div class="mb-3"></div>
+          <li><b>Frameworks:</b> Django, React, Flutter, Express.js, JavaFX, Scrapy</li>
+          <div class="mb-3"></div>
+          <li><b>Libraries:</b> NumPy, Pandas, TensorFlow, Scikit Learn, Matplotlib</li>
+          <div class="mb-3"></div>
+          <li><b>Web Technology:</b> HTML, CSS, Rest API, Bootstrap</li>
+          <div class="mb-3"></div>
+          <li><b>DevOps:</b> Docker, Kubernetes, Jenkins, Ansible</li>
+          <div class="mb-3"></div>
+          <li><b>Cloud:</b> Amazon EC2, S3 Bucket, Azure, Linode</li>
+          <div class="mb-3"></div>
+          <li><b>Technical Writing:</b> LaTeX, Beamer, Overleaf</li>
+          <div class="mb-3"></div>
+          <li><b>Build Tools:</b> CMake, Gradle, Apache Maven</li>
+          <div class="mb-3"></div>
+          <li><b>Others:</b> Git, NS2, Eclipse JDT, IntelliJ Platform SDK</li>
+        </ul>
       </div>
     </section>
     <hr class="m-0" />
