@@ -15,7 +15,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
-  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAABTXIcAAAAAAJC02AB8ocQA7OrqAEI5sQBCL8UAAAIUAEJ1lQB8j7UAkLHZAKXD8ACQt+EAQDDDAI655AAGBgkAj7nkAD52kwAJCQkApsHuAEdNUAA6TXIAkLHaAEJ4lgCKjskAT1p2AKTG8QAHBwcAjLnlAAcNDwBAMMQACQcHAD4zxACoqKgADgoPADouwgCixO8APXKPAKHD8gCkx+8AQXiXADwwxQAGBwgABwcIADpmiAAQBR4AXml+AH6ozAA/M8UAPnaVAD92lQDt7e0AkbzmAF2WtgCqyPUAS3KgAC9jgQAFCAYAp8TwAJez1gA+McMApMfwAAcIBgBiiakAPFd5AAAALgBQTE0Ao8TxAGyRzQDn5eQAmqHYAEZ5lgBBMcQAkbrlADhGaABBdpcAdJipAJC54ABBM78APzLCAAgJBQBAMsIAJigxAJK44wAICAgAZLLVAIyTvwBALhcAGCZAABIZKwCjxfAABgYGAKXF8AAABAwAqsbtAFh1mgCaotcAQnmYAEN5mACRuOQAjrXcAGyRzwCjw+4AU154AEA1uwBvkccAQlmHAEF3lgCpw+4Am7/hAAICAgA/MsQARX2WAEZ5mQDs7OwAWYSrAA1FXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh4gbzw8TGxWYDo8PDxRMAEeBh4eHkEAQydGTh4eSC0BAR48PA0TWhpDJEo8PAUBAQEBRyMpCV5cNhVmaHABAQEBATVxNwtaWlo9TyglAQEBAQEUOGFiJmVEFxEXCAEBAQEBAVUxa2kKajJLdAEBAQEBAQEBARhycnJFLAEBAQEBAQEBV3MhM3IzBF9CAQEBAQEBAVIMbUlNDi8CLgEBAQEBAQErB1NYPzsQWRsBAQEBAQEBGz40FmMZHA8bAQEBAQEBARIbZwNjIkAbGwEBAQEBAQEBGxtdZG5bGxsBAQEBAQEBAVQbGx0bG1ABAQEBAQEBAQEBGx85GyoBAQEBAQAAAACAAAAAwAEAAOADAADgAwAA4AMAAPAHAAD8DwAA8AcAAPAHAADwBwAA8AcAAPAHAAD4BwAA+A8AAPwfAAA=" rel="icon" type="image/x-icon" />
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAABTXIcAAAAAAJC02AB8ocQA7OrqAEI5sQBCL8UAAAIUAEJ1lQB8j7UAkLHZAKXD8ACQt+EAQDDDAI655AAGBgkAj7nkAD52kwAJCQkApsHuAEdNUAA6TXIAkLHaAEJ4lgCKjskAT1p2AKTG8QAHBwcAjLnlAAcNDwBAMMQACQcHAD4zxACoqKgADgoPADouwgCixO8APXKPAKHD8gCkx+8AQXiXADwwxQAGBwgABwcIADpmiAAQBR4AXml+AH6ozAA/M8UAPnaVAD92lQDt7e0AkbzmAF2WtgCqyPUAS3KgAC9jgQAFCAYAp8TwAJez1gA+McMApMfwAAcIBgBiiakAPFd5AAAALgBQTE0Ao8TxAGyRzQDn5eQAmqHYAEZ5lgBBMcQAkbrlADhGaABBdpcAdJipAJC54ABBM78APzLCAAgJBQBAMsIAJigxAJK44wAICAgAZLLVAIyTvwBALhcAGCZAABIZKwCjxfAABgYGAKXF8AAABAwAqsbtAFh1mgCaotcAQnmYAEN5mACRuOQAjrXcAGyRzwCjw+4AU154AEA1uwBvkccAQlmHAEF3lgCpw+4Am7/hAAICAgA/MsQARX2WAEZ5mQDs7OwAWYSrAA1FXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh4gbzw8TGxWYDo8PDxRMAEeBh4eHkEAQydGTh4eSC0BAR48PA0TWhpDJEo8PAUBAQEBRyMpCV5cNhVmaHABAQEBATVxNwtaWlo9TyglAQEBAQEUOGFiJmVEFxEXCAEBAQEBAVUxa2kKajJLdAEBAQEBAQEBARhycnJFLAEBAQEBAQEBV3MhM3IzBF9CAQEBAQEBAVIMbUlNDi8CLgEBAQEBAQErB1NYPzsQWRsBAQEBAQEBGz40FmMZHA8bAQEBAQEBARIbZwNjIkAbGwEBAQEBAQEBGxtdZG5bGxsBAQEBAQEBAVQbGx0bG1ABAQEBAQEBAQEBGx85GyoBAQEBAQAAAACAAAAAwAEAAOADAADgAwAA4AMAAPAHAAD8DwAA8AcAAPAHAADwBwAA8AcAAPAHAAD4BwAA+A8AAPwfAAA="
+    rel="icon" type="image/x-icon" />
+  <meta name="description"
+    content="SANJAY MALAKAR
+  SOFTWARE ENGINEER.
+  I am a senior software engineer at OpenRefactory, Inc., a Silicon Valley-based deep-tech software company that focuses on automatically fixing security, reliability, and compliance bugs.
+  
+  My research focuses on Software Engineering, Computer/Software Security, and Programming Languages.
+  
+  I received my Bachelor of Science degree in Computer Science and Engineering from Bangladesh University of Engineering and Technology. I completed my undergraduate thesis under the supervision of professor Dr. Rifat Shahriyar on addressing atomicity bugs in software. Besides that, I worked with Dr. Gias Uddin, Assistant Professor, University of Calgary, and Dr. Anindya Iqbal on an empirical study of low-code software development challenges.
+  
+  Apart from my academic activities, I like to travel to new places with my friends and family. In my free time, I enjoy solving problems on data structure and algorithms, watching anime, and playing video games.">
 </head>
 
 <body id="page-top">
@@ -89,7 +101,8 @@
               <br />
               I received my Bachelor of Science degree in Computer Science and
               Engineering from
-              <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I completed my
+              <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I completed
+              my
               undergraduate thesis under the supervision of
               professor
               <a href="https://rifatshahriyar.github.io/">Dr. Rifat Shahriyar</a>
@@ -108,15 +121,20 @@
           <div class="col-lg-3 col-12 mt-lg-0 mt-3">
             <div class="text-primary subheading">Looking for PhD opportunities!</div>
             I am currently looking for PhD opportunities in USA. If you'd like to know
-            more about my work, please get in touch! You can find my CV <a href="/files/CV_Sanjay_Malakar.pdf" target="_blank">here</a>.
+            more about my work, please get in touch! You can find my CV <a href="/files/CV_Sanjay_Malakar.pdf"
+              target="_blank">here</a>.
             <div class="mb-3"></div>
             <div class="text-primary subheading">Recent News</div>
             <ul class="fa-ul" style="margin-left: 2rem;">
-              <li><i class="fa-li fa fa-pen-nib"></i>Submitted revised manuscript of the paper <a href="#lcsd_emse">Developer Discussion Topics on the Adoption and Barriers of Low
-                Code Software Development Platforms</a> to the <i>EMSE Journal</i>.</li>
-              <li><i class="fa-li fa fa-award"></i>Attended TOEFL iBT exam and scored 103 out of 120 (R-25, L-29, S-23, W-26).</li>
-              <li><i class="fa-li fa fa-pen-nib"></i><a href="#lcsd_msr">An Empirical Study of Developer Discussions on Low Code
-                Software Development Challenges</a> is publised in the <i>2021 Mining Software Repositories Conference</i>.</li>
+              <li><i class="fa-li fa fa-pen-nib"></i>Submitted revised manuscript of the paper <a
+                  href="#lcsd_emse">Developer Discussion Topics on the Adoption and Barriers of Low
+                  Code Software Development Platforms</a> to the <i>EMSE Journal</i>.</li>
+              <li><i class="fa-li fa fa-award"></i>Attended TOEFL iBT exam and scored 103 out of 120 (R-25, L-29, S-23,
+                W-26).</li>
+              <li><i class="fa-li fa fa-pen-nib"></i><a href="#lcsd_msr">An Empirical Study of Developer Discussions on
+                  Low Code
+                  Software Development Challenges</a> is publised in the <i>2021 Mining Software Repositories
+                  Conference</i>.</li>
             </ul>
           </div>
         </div>
@@ -416,84 +434,104 @@
         <h2 class="mb-5">Projects</h2>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">DNS Cache Poisoning</h3>
-              <div class="subheading mb-3">
-                <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning" target="_blank"><span class="fab fa-github"></span></a>
-                <a class="social-icon" href="https://www.youtube.com/watch?v=-oCMsx-ntHE" target="_blank"><span class="fab fa-youtube"></span></a>
-                &ensp;|&ensp;Tools : Bind9, Virtual Machines 
-              </div>
-              <p>Remote DNS cache poisoning attack exploiting Kaminsky's DNS Cache poisoning flaw. (<a href="https://www.cve.org/CVERecord?id=CVE-2008-1447" target="_blank">CVE-2008-1447</a>)  </p>
+            <h3 class="mb-0">DNS Cache Poisoning</h3>
+            <div class="subheading mb-3">
+              <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning"
+                target="_blank"><span class="fab fa-github"></span></a>
+              <a class="social-icon" href="https://www.youtube.com/watch?v=-oCMsx-ntHE" target="_blank"><span
+                  class="fab fa-youtube"></span></a>
+              &ensp;|&ensp;Tools : Bind9, Virtual Machines
             </div>
-            <div class="col-lg-3 col-md-3 col-12 px-3">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-oCMsx-ntHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <p>Remote DNS cache poisoning attack exploiting Kaminsky's DNS Cache poisoning flaw. (<a
+                href="https://www.cve.org/CVERecord?id=CVE-2008-1447" target="_blank">CVE-2008-1447</a>) </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 px-3">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-oCMsx-ntHE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">Website developement for flight and hotel room reservation system</h3>
-              <div class="subheading mb-3">
-                <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning" target="_blank"><span class="fab fa-github"></span></a>
-                <a class="social-icon" href="https://sanjaymalakar.me/HotelFlight/" target="_blank"><span class="fa fa-external-link"></span></a>
-                &ensp;|&ensp;Tools : Django, JavaScript, SQLite 
-              </div>
-              <p>Developed a website as my level-4/term-1 project where customers can book flight tickets and hotel rooms through card payment, and companies can update their page and manage bookings.</p>
+            <h3 class="mb-0">Website developement for flight and hotel room reservation system</h3>
+            <div class="subheading mb-3">
+              <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning"
+                target="_blank"><span class="fab fa-github"></span></a>
+              <a class="social-icon" href="https://sanjaymalakar.me/HotelFlight/" target="_blank"><span
+                  class="fa fa-external-link"></span></a>
+              &ensp;|&ensp;Tools : Django, JavaScript, SQLite
             </div>
-            <div class="col-lg-3 col-md-3 col-12 px-3">
-              <img src="/assets/img/hotel_flight.png" alt="hotel flight demo" style="width: 100%; height: 100%; display: block;"/>
-            </div>
+            <p>Developed a website as my level-4/term-1 project where customers can book flight tickets and hotel rooms
+              through card payment, and companies can update their page and manage bookings.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 px-3">
+            <img src="/assets/img/hotel_flight.png" alt="hotel flight demo"
+              style="width: 100%; height: 100%; display: block;" />
+          </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">DX-Ball</h3>
-              <div class="subheading mb-3">
-                <a class="social-icon" href="https://www.youtube.com/watch?v=QxlbKHyNUz0" target="_blank"><span class="fab fa-youtube"></span></a>
-                &ensp;|&ensp;Tools : Micro-controller, Accelerometer sensor 
-              </div>
-              <p>The popular arcade game DX-Ball with LED Dot Matrix and Atmega32 micro-controller.</p>
+            <h3 class="mb-0">DX-Ball</h3>
+            <div class="subheading mb-3">
+              <a class="social-icon" href="https://www.youtube.com/watch?v=QxlbKHyNUz0" target="_blank"><span
+                  class="fab fa-youtube"></span></a>
+              &ensp;|&ensp;Tools : Micro-controller, Accelerometer sensor
             </div>
-            <div class="col-lg-3 col-md-3 col-12 px-3">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QxlbKHyNUz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <p>The popular arcade game DX-Ball with LED Dot Matrix and Atmega32 micro-controller.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 px-3">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QxlbKHyNUz0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">Software developement for football club management</h3>
-              <div class="subheading mb-3">
-                <a class="social-icon" href="https://github.com/iamsanjaymalakar/Football_Club_Management" target="_blank"><span class="fab fa-github"></span></a>
-                &ensp;|&ensp;Tools : Java, JavaFX, Oracle Database
-              </div>
-              <p>An application that stores all information about the club (players, managers, games). Admin of the club can update, add, and delete this information and generate graphs from given data.</p>
+            <h3 class="mb-0">Software developement for football club management</h3>
+            <div class="subheading mb-3">
+              <a class="social-icon" href="https://github.com/iamsanjaymalakar/Football_Club_Management"
+                target="_blank"><span class="fab fa-github"></span></a>
+              &ensp;|&ensp;Tools : Java, JavaFX, Oracle Database
             </div>
-            <div class="col-lg-3 col-md-3 col-12 px-3">
-              <img src="/assets/img/club-management.png" alt="football-club-management" style="width: 100%; height: 100%; display: block;"/>
-            </div>
+            <p>An application that stores all information about the club (players, managers, games). Admin of the club
+              can update, add, and delete this information and generate graphs from given data.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 px-3">
+            <img src="/assets/img/club-management.png" alt="football-club-management"
+              style="width: 100%; height: 100%; display: block;" />
+          </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">Tic-Tac-Toe</h3>
-              <div class="subheading mb-3">
-                <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning" target="_blank"><span class="fab fa-github"></span></a>
-                &ensp;|&ensp;Tools : Game theory, OpenGL 
-              </div>
-              <p>Tic-Tac-Toe game using Minimax algorithm created in C++ using a wrapper for OpenGL in 2D.</p>
+            <h3 class="mb-0">Tic-Tac-Toe</h3>
+            <div class="subheading mb-3">
+              <a class="social-icon" href="https://github.com/iamsanjaymalakar/dns_cache_poisoning"
+                target="_blank"><span class="fab fa-github"></span></a>
+              &ensp;|&ensp;Tools : Game theory, OpenGL
             </div>
-            <div class="col-lg-3 col-md-3 col-12 px-3">
-              <img src="/assets/img/tic_tac_toe.png" alt="tic-tac-toe" style="width: 100%; height: 100%; display: block;"/>
-            </div>
+            <p>Tic-Tac-Toe game using Minimax algorithm created in C++ using a wrapper for OpenGL in 2D.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 px-3">
+            <img src="/assets/img/tic_tac_toe.png" alt="tic-tac-toe"
+              style="width: 100%; height: 100%; display: block;" />
+          </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 justify">
           <div class="resume-content">
-              <h3 class="mb-0">MISCELLANEOUS</h3>
-              <ul>
-                <li><b>C Compiler:</b> Using lexical analyzer and parser designing tools.</li>
-                <li><b>4-bit Microprocessor:</b> Using Atmel Studio, MIPS architecture.</li>
-                <li><b>AI:</b> Simulating the Mancala game by using basic algorithms in Artificial Intelligence.</li>
-                <li><b>Machine Learning:</b> Exploring different ML algorithms such as KNN, Decision Tree, Naive Bayes, Neural Networks, etc.</li>
-                <li><b>Networking:</b> Modifying some functionalities of the computer network in NS2</li>
-                <li><b>Others:</b> Implementing some functionalities of an OS on XV6, Ray tracing using OpenGL.</li>
-              </ul>
+            <h3 class="mb-0">MISCELLANEOUS</h3>
+            <ul>
+              <li><b>C Compiler:</b> Using lexical analyzer and parser designing tools.</li>
+              <li><b>4-bit Microprocessor:</b> Using Atmel Studio, MIPS architecture.</li>
+              <li><b>AI:</b> Simulating the Mancala game by using basic algorithms in Artificial Intelligence.</li>
+              <li><b>Machine Learning:</b> Exploring different ML algorithms such as KNN, Decision Tree, Naive Bayes,
+                Neural Networks, etc.</li>
+              <li><b>Networking:</b> Modifying some functionalities of the computer network in NS2</li>
+              <li><b>Others:</b> Implementing some functionalities of an OS on XV6, Ray tracing using OpenGL.</li>
+            </ul>
+          </div>
         </div>
-      </div>
     </section>
     <hr class="m-0" />
     <!-- Skills-->
