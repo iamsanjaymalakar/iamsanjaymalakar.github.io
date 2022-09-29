@@ -11438,3 +11438,12 @@ section.resume-section .resume-section-content {
 .justify {
   text-align: justify;
 }
+
+.small-date {
+  font-family: 'Arial';
+  -webkit-text-size-adjust: none;
+  font-size: 12px;
+  text-decoration: underline italic;
+  font-style: italic;
+  color:#282828;
+}
