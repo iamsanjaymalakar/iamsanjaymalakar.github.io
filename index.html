@@ -27,7 +27,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sanjay Malakar</span>
       <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          src="assets/img/profile.jpg" alt="..." /></span>
+          src="assets/img/profile_new.jpg" alt="..." /></span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#research">Research</a>
+          <a class="nav-link js-scroll-trigger" href="#research">Publications and Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -53,9 +53,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="/files/CV_Sanjay_Malakar.pdf" target="_blank">CV</a>
         </li>
@@ -80,37 +80,36 @@
         <div class="row">
           <div class="col-lg-9 col-12">
             <p class="lead mb-5 justify">
-              I am a first year P.hD. student in Computer Science at <a href="https://www.ucr.edu/">University of
+              I am a second-year P.hD. student in Computer Science at <a href="https://www.ucr.edu/">University of
                 California, Riverside (UCR)</a>,
-              advised by <a href="https://manu.sridharan.net/">Dr. Manu Sridharan</a> and a member of the <a
-              href="https://riple.cs.ucr.edu/">RIPLE</a> group. My research is at the intersection of
-              Program Analysis and Software Security.
-              I am currently working on resource leaks and their automated repairs solutions.
+              advised by <a href="https://manu.sridharan.net/">Prof. Manu Sridharan</a> and a member of the <a
+                href="https://riple.cs.ucr.edu/">RIPLE</a> group. My research lies at the intersection of
+              Program Analysis and Software Security. Currently, I focus on detecting and repairing resource leaks in
+              software systems, leveraging advanced program analysis techniques and exploring the use of Large Language
+              Models (LLMs) to automate repair processes for resource management issues.
               <br />
               <br />
-              Before embarking on my Ph.D. journey, I held the role of senior software engineer at
+              Previously, I worked as a Senior Software Engineer at
               <a href="https://www.openrefactory.com/">OpenRefactory, Inc.</a>, a
-              Silicon Valley-based deep-tech software company that focuses on
-              automatically fixing security, reliability, and compliance bugs.
+              Silicon Valley-based deep-tech company developing SAST tools to detect and fix security,
+              reliability, and compliance bugs.
               <br />
               <br />
-              I received my Bachelor of Science degree in Computer Science and
+              I hold a B.Sc. in Computer Science and
               Engineering from
-              <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>. I completed
-              my
-              undergraduate thesis under the supervision of
-              professor
-              <a href="https://rifatshahriyar.github.io/">Dr. Rifat Shahriyar</a>
-              on addressing atomicity bugs in software. Besides that, I worked
+              <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a>, where I
+              completed my undergraduate thesis under the supervision of <a
+                href="https://rifatshahriyar.github.io/">Prof. Rifat Shahriyar</a>, focusing on fixing data race
+              conditions in multi-threaded applications.
+              Additionally, I worked
               with
               <a href="https://giasuddin.ca/">Dr. Gias Uddin</a> and
               <a href="https://scholar.google.com/citations?user=jAuiNFgAAAAJ&hl=en">Dr. Anindya Iqbal</a>
-              on an empirical study of low-code software development challenges.
+              on an empirical study of challenges in low-code software development, addressing developer
+              productivity, usability, and adoption barriers.
               <br />
               <br />
-              Apart from my academic activities, I like to travel to new places. In my free time, I enjoy solving
-              problems on data structure and algorithms,
-              watching anime, and playing FPS games.
+              Beyond research, I am passionate about advancing software reliability and security through automation.
             </p>
             <div class="social-icons pt-4">
               <a class="social-icon" href="mailto:iamsanjaymalakar@gmail.com">
@@ -138,6 +137,9 @@
             <div class="text-primary subheading">Recent News</div>
             <div class="scrollbar" id="style-6">
               <ul class="fa-ul" style="margin-left: 2rem;">
+                <li><i class="fa-li fa fa-calendar-days"></i>
+                  Attended <a href="https://2024.splashcon.org/">SPLASH 2024</a> conference in Pasadena, California.
+                  <span class="small-date">[Oct '24]</span>
                 <li><i class="fa-li fa fa-building-columns"></i>
                   Joined Riverside Programming Languages and Software Enginnerring <a
                     href="https://riple.cs.ucr.edu/">(RIPLE)</a> Lab at UC Riverside for my Ph.D.
@@ -179,27 +181,43 @@
         <h2 class="mb-5">Experience</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
+            <h3 class="mb-0">Graduate Student Researcher</h3>
+            <div class="subheading mb-3">University of California, Riverside</div>
+            <p class="justify">
+              I work on enhancing the Checker Framework’s <a
+                href="https://checkerframework.org/manual/#resource-leak-checker">Resource Leak Checker</a> to improve
+              the detection of resource
+              leaks in Java applications, while leveraging code transformations and Large Language Models (LLMs) to
+              enable automated patch generation and validation across diverse open-source projects.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">July 2024 - Present</span>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
             <h3 class="mb-0">Senior Software Engineer</h3>
             <div class="subheading mb-3">OpenRefactory, Inc.</div>
             <p class="justify">
-              Developed Intelligent Code Repair (<a href="https://www.openrefactory.com/solutions/" id="icr">iCR</a>),
-              an innovative Static Application Security Testing (SAST) tool that automatically
-              synthesizes fixes for over half of all detected bugs. Contributed remotely from Dhaka, Bangladesh,
-              implementing iCR for Java, Python, and Go.
+              Contributed to the development of Intelligent Code Repair (<a
+                href="https://www.openrefactory.com/solutions/" id="icr">iCR</a>),
+              a Static Application Security Testing (SAST) tool designed to detect and fix bugs in Java, Python, and Go
+              projects.
               Key responsibilities and contributions:
 
             <ul>
-              <li>Contributed to iCR’s core IP by working on static program analysis.</li>
-              <li>Developed and implemented algorithms for a robust pointer analysis engine for Java, Python, and Go.
+              <li>Designed and implemented algorithms for pointer analysis, including incremental analysis and handling
+                of threading and framework lifecycle methods.</li>
+              <li>Developed custom checkers for advanced bug detection, including taint analysis and null pointer
+                detection.</li>
+              <li>Executed performance optimizations using ProtoBuf, improving memory efficiency and serialization
+                performance.</li>
+              <li>Transitioned the deployment architecture from monolithic to microservices, enabling scalability for
+                SaaS platforms.</li>
+              <li>Established CI/CD pipelines, integrating streamlined testing workflows and deployment automation.
               </li>
-              <li>Restructured the deployment architecture from monolithic to microservices for scalable enterprise use
-                as a SaaS.</li>
-              <li>Executed deep performance hacking to resolve memory issues, optimizing iCR’s serialization with
-                ProtoBuf.</li>
-              <li>Contributed to creating deep learning‐based algorithms to detect logical bugs in Python source code.
-              </li>
-              <li>Conducted research and development on identifying software weaknesses and vulnerabilities.</li>
-              <li>Established CI/CD workflows, incorporating UI testing for streamlined deployment.</li>
             </ul>
             </p>
           </div>
@@ -220,7 +238,7 @@
           <h3 class="mb-0">University of California, Riverside</h3>
           <div class="subheading mb-3">Doctor of Philosophy</div>
           <div>Computer Science</div>
-          <p>CGPA: 4.00/4.00</p>
+          <p>CGPA: 3.93/4.00</p>
         </div>
         <div class="flex-shrink-0">
           <span class="text-primary">September 2023 - Present</span>
@@ -253,7 +271,7 @@
   <!-- Research-->
   <section class="resume-section" id="research">
     <div class="resume-section-content">
-      <h2 class="mb-5">Research</h2>
+      <h2 class="mb-5">Publications and Projects</h2>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="lcsd_emse">
         <div class="resume-content">
           <h3 class="mb-0">
@@ -265,11 +283,10 @@
             Tameem Bin Haider, Anindya Iqbal
           </div>
           <p class="justify">
-            The <a href="https://link.springer.com/journal/10664">Empirical Software Engineering (EMSE)<a> journal
-                invited us to extend our MSR'21 paper titled,
-                <i>An Empirical Study of Developer Discussions on Low Code Software Development Challenges</i>.
-                We applied topic modeling to 33K relevant Stack Overflow posts of 38 popular low-code platforms
-                and manually annotated statistically significant data samples to reach our conclusions.
+            Published in the <i>Empirical Software Engineering (EMSE)</i> journal, this study builds on our MSR’21
+            paper. We
+            applied topic modeling to 33K relevant Stack Overflow posts from 38 popular low-code platforms, conducting a
+            manual annotation of statistically significant data samples to identify adoption barriers and trends.
           </p>
           <div class="subheading mb-3">
             Status: <b>Accepted</b> in <a href="https://link.springer.com/article/10.1007/s10664-022-10244-0">2023
@@ -290,10 +307,9 @@
             Tameem Bin Haider, Anindya Iqbal
           </div>
           <p>
-            We presented a novel empirical study of around 5K Stack Overflow posts that contain discussions of nine
-            popular low-code development platforms. We presented the low-code platform trends and discussed the
-            difficulties that developers encounter while adopting these platforms. Our findings offered implications
-            for low-code practitioners, platform providers, educators, and researchers.
+            This study analyzed approximately 5K Stack Overflow posts discussing nine popular low-code platforms. We
+            identified trends, challenges, and implications for practitioners, platform providers, educators, and
+            researchers.
           </p>
           <div class="subheading mb-3">
             Status: <b>Accepted in</b>
@@ -314,15 +330,10 @@
             Co-Authors: Tameem Bin Haider, Rifat Shahriyar
           </div>
           <p>
-            We developed a Clang-based tool that automates fixing single-variable atomicity violations. We utilized
-            the bug reports of an existing bug-detection tool, ThreadSanitizer. We augmented them with static analysis
-            to construct a suitable patch for each bug report, with the best effort to reuse locks and avoid
-            deadlocks.
+            My undergraduate thesis, RaceFixer, is a Clang-based tool that automates the detection and repair of
+            single-variable atomicity violations. It enhances ThreadSanitizer's bug reports with static analysis to
+            generate suitable patches, emphasizing lock reuse and deadlock prevention.
           </p>
-          <div class="subheading mb-3">Status: <b>In preparation for Concurrency and Computation: Practice and
-              Experience.</b>.
-              [<a href="https://arxiv.org/pdf/2401.04221.pdf">PDF</a>]
-          </div>
         </div>
       </div>
     </div>
@@ -434,7 +445,7 @@
     </div>
   </section>
   <hr class="m-0" />
-  <!-- Projects-->
+  <!-- Projects
   <section class="resume-section" id="projects">
     <div class="resume-section-content">
       <h2 class="mb-5">Projects</h2>
@@ -549,7 +560,7 @@
           </ul>
         </div>
       </div>
-  </section>
+  </section> -->
   <hr class="m-0" />
   <!-- Contact-->
   <section class="resume-section" id="contact">
